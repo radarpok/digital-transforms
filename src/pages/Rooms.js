@@ -8,9 +8,9 @@ const Rooms = () => {
   return (
     <>
       <Hero hero="roomsHero">
-        <Banner title="Our works">
+        <Banner title="Eseménynapló">
           <Link to="/" className="btn-primary">
-            return home
+            vissza a főoldalra
           </Link>
         </Banner>
       </Hero>

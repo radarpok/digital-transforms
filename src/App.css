@@ -5,13 +5,13 @@
 }
 :root {
   /* #af9a7d */
-  --primaryColor: #af9677;
+  --primaryColor: #c2b39f;
   --mainWhite: #f5eeeef3;
   --marble: url('./images/marble.png');
   --offWhite: #f1efebf3;
   --mainBlack: #222;
   --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
+  --darkGrey: #dedac9;
   --mainTransition: all 0.3s linear;
   --mainSpacing: 3px;
   --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
@@ -165,9 +165,12 @@ h6 {
   min-height: calc(100vh - 66px);
   background: linear-gradient(
     to right bottom,
-    rgba(177, 143, 99, 0.534),
-    rgba(236, 234, 220, 0.507),
-    rgba(138, 87, 28, 0.61)),
+    rgba(76, 76, 76, 0.676),
+    rgba(131, 129, 124, 0.674),
+    rgba(113, 137, 137, 0.787),
+    rgba(182, 165, 195, 0.757),
+    rgba(152, 148, 126, 0.853),
+    rgba(248, 186, 100, 0.721)),
   url('./images/defaultBcg.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
@@ -181,7 +184,7 @@ h6 {
 /* Banner */
 .banner {
   display: inline-block;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(47, 41, 41, 0.79);
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;

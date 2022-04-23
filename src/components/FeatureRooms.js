@@ -15,7 +15,7 @@ class FeatureRooms extends Component {
 
     return (
       <section className="featured-rooms">
-        <Title title="featured works" />
+        <Title title="Visszajelzések" />
         <div className="featured-rooms-center">
           {loading ? <Loading /> : rooms}
         </div>

@@ -21,15 +21,15 @@ export default [
       id: '1'
     },
     fields: {
-      name: 'Szent István utcai 1',
-      slug: 'single-economy',
-      type: 'single',
-      price: 100,
-      size: 200,
-      capacity: 1,
-      pets: false,
-      breakfast: false,
-      featured: false,
+      name: 'rendezvény',
+      slug: 'presidential-room',
+      type: 'presidential',
+      price: 4.02,
+      size: 1000,
+      capacity: 10,
+      pets: true,
+      breakfast: true,
+      featured: true,
       description:
         'Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.',
       extras: [
@@ -45,7 +45,7 @@ export default [
         {
           fields: {
             file: {
-              url: img1
+              url: room1
             }
           }
         },
@@ -420,17 +420,17 @@ export default [
       id: '8'
     },
     fields: {
-      name: 'lechner',
+      name: 'kiemelt időszak',
       slug: 'double-deluxe',
       type: 'double',
-      price: 170,
+      price: 2022.04,
       size: 500,
       capacity: 2,
       pets: true,
       breakfast: true,
       featured: true,
       description:
-        'Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.',
+        '04.16 - 17-én a wellness részleg és a recepció 08:00 - 21:00-ig tart nyitva, .',
       extras: [
         'Plush pillows and breathable bed linens',
         'Soft, oversized bath towels',
@@ -705,15 +705,15 @@ export default [
       id: '13'
     },
     fields: {
-      name: 'deluxe',
-      slug: 'presidential-room',
-      type: 'presidential',
-      price: 220,
-      size: 1000,
-      capacity: 10,
-      pets: true,
-      breakfast: true,
-      featured: true,
+      name: 'Szent István utcai 1',
+      slug: 'single-economy',
+      type: 'single',
+      price: 3.15,
+      size: 200,
+      capacity: 1,
+      pets: false,
+      breakfast: false,
+      featured: false,
       description:
         'Street art edison bulb gluten-free, tofu try-hard lumbersexual brooklyn tattooed pickled chambray. Actually humblebrag next level, deep v art party wolf tofu direct trade readymade sustainable hell of banjo. Organic authentic subway tile cliche palo santo, street art XOXO dreamcatcher retro sriracha portland air plant kitsch stumptown. Austin small batch squid gastropub. Pabst pug tumblr gochujang offal retro cloud bread bushwick semiotics before they sold out sartorial literally mlkshk. Vaporware hashtag vice, sartorial before they sold out pok pok health goth trust fund cray.',
       extras: [
@@ -729,7 +729,7 @@ export default [
         {
           fields: {
             file: {
-              url: room1
+              url: img1
             }
           }
         },

@@ -32,19 +32,19 @@ class Navbar extends Component {
             className={this.state.isOpen ? 'nav-links show-nav' : 'nav-links'}
           >
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/">Főoldal</Link>
             </li>
             <li>
-              <Link to="/rooms">Presentation</Link>
+              <Link to="/events">Naptár</Link>
             </li>
             <li>
-              <Link to="/order">Make an order</Link>
+              <Link to="/rooms">Eseménynapló</Link>
             </li>
             <li>
-              <Link to="/contact">Contact us</Link>
+              <Link to="/contact">Munkabeosztás</Link>
             </li>
             <li>
-              <Link to="/payment">Payment Information</Link>
+              <Link to="/payment">Apartmanok kiadhatósága</Link>
             </li>
           </ul>
         </div>

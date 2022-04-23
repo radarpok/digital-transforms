@@ -6,34 +6,34 @@ class Services extends Component {
     services: [
       {
         icon: <FaCocktail />,
-        title: 'Consistency',
+        title: 'Étterem, konyha',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, libero!'
+          "Stay cohesive. Development in english language is important ~"
       },
       {
         icon: <FaHiking />,
-        title: 'Endless Power',
+        title: 'Recepció',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, libero!'
+          "Our decisions are too different in certain situations. More team-talk is involved. Also need to develop english skills"
       },
       {
         icon: <FaShuttleVan />,
-        title: 'Time Management',
+        title: 'Marketing',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, libero!'
+          'Will she have enough energy and attention at full house events without enough protein? :)) Seriously, I think some assistance is needed in that'
       },
       {
         icon: <FaParking />,
-        title: 'Productivity',
+        title: 'Menedzsment, könyvelés',
         info:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, libero!'
+          'More study is needed, paying attention'
       }
     ]
   };
   render() {
     return (
       <section className="services">
-        <Title title="services" />
+        <Title title="Teendők" />
         <div className="services-center">
           {this.state.services.map((service, i) => {
             return (
